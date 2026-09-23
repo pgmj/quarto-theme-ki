@@ -1,0 +1,11 @@
+# Quarto / R
+.quarto/
+/.Rproj.user/
+.Rhistory
+.RData
+.Rproj
+*_files/
+*_cache/
+
+# OS
+.DS_Store
