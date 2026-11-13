@@ -4,11 +4,15 @@ subtitle: "Subtitle or date"
 author: "Your Name"
 format:
   revealjs:
-    theme: [default, quarto-theme-ki/ki.scss]
+    theme: [default, quarto-theme-ki/ki_embed.scss]
+    embed-resources: true   # always: one standalone .html file
     slide-number: true
     footer: "Karolinska Institutet – ett medicinskt universitet"
     title-slide-attributes:
       data-background-color: "#4F0433"
+  pptx:
+    reference-doc: quarto-theme-ki/ki-reference.pptx
+    slide-level: 2
 ---
 
 <!-- =====================================================================
@@ -24,6 +28,10 @@ format:
     ## Heading {.ljusorange}  → pale-orange section
     ## Heading {.plum}        → dark-plum divider (white text)
     ## Heading {.blue}        → deep-blue divider (white text)
+
+  PowerPoint: `quarto render` builds both formats; `--to pptx` only the
+  .pptx. The slide classes above are reveal.js only. See the PowerPoint
+  section of quarto-theme-ki/README.md for what translates.
 ===================================================================== -->
 
 ## Content slide
