@@ -4,7 +4,7 @@ A portable Karolinska Institutet theme for Quarto slides, as reveal.js (HTML)
 and PowerPoint, plus a matching ggplot2 theme. **Copy this whole folder into a
 project root** and point a `.qmd` at it.
 
-For an example presentation, see [my presentation](https://pgmj.github.io/SAMC2026/) at the [Scandinavian Applied Measurement Conference 2026](https://biostat.ku.dk/SAMC/SAMC2026.pdf).
+For an example presentation, see [my presentation](https://pgmj.github.io/SAMC2026/) at the Scandinavian Applied Measurement Conference 2026.
 
 ## Contents
 
